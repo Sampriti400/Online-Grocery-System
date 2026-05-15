@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛒 BlinkBasket
+# 🛒 FreshBasket
 
 **A full-stack online grocery management platform built for speed, reliability, and a modern user experience.**
 
@@ -16,7 +16,7 @@
 
 ## 📌 Overview
 
-BlinkBasket is a feature-rich grocery e-commerce platform with a full admin panel. It supports product discovery, variant-based products (size/weight/pack options), cart management, geo-based delivery checks, multiple payment modes, auto-generated invoices, stock alerts, and admin reporting — all powered by a fully automated backend with PostgreSQL triggers.
+FreshBasket is a feature-rich grocery e-commerce platform with a full admin panel. It supports product discovery, variant-based products (size/weight/pack options), cart management, geo-based delivery checks, multiple payment modes, auto-generated invoices, stock alerts, and admin reporting — all powered by a fully automated backend with PostgreSQL triggers.
 
 ---
 
@@ -58,7 +58,7 @@ BlinkBasket is a feature-rich grocery e-commerce platform with a full admin pane
 
 ## 🗃️ Database Schema (v1.1)
 
-BlinkBasket uses **13 PostgreSQL tables** managed through Supabase. All primary keys use `BIGSERIAL` for fast integer joins.
+FreshBasket uses **13 PostgreSQL tables** managed through Supabase. All primary keys use `BIGSERIAL` for fast integer joins.
 
 ### Core Tables
 
@@ -101,7 +101,7 @@ BlinkBasket uses **13 PostgreSQL tables** managed through Supabase. All primary 
 
 ## ⚡ Postgres Triggers & Automation
 
-BlinkBasket uses **3 PostgreSQL triggers** to automate critical business logic atomically — no extra API calls needed.
+FreshBasket uses **3 PostgreSQL triggers** to automate critical business logic atomically — no extra API calls needed.
 
 ### Trigger 1 — Auto Invoice ID
 Fires `BEFORE INSERT` on `orders`. Sets `invoice_id = 'INV-' + order_id`.
@@ -252,9 +252,6 @@ Run the complete v1.1 schema in your **Supabase SQL editor**. The schema include
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/Sourjya-Saha/blinkbasket.git
-cd blinkbasket
 
 # Install frontend dependencies
 cd frontend
