@@ -13,31 +13,31 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'BlinkBasket - Online Grocery Delivery',
+  title: 'FreshBasket - Online Grocery Delivery',
   description:
-    'BlinkBasket lets you shop groceries instantly with smart recommendations, fast delivery, and seamless cart management.',
+    'FreshBasket lets you shop groceries instantly with smart recommendations, fast delivery, and seamless cart management.',
   keywords: [
-    'BlinkBasket',
+    'FreshBasket',
     'Online Grocery',
     'Quick Delivery',
     'Ecommerce',
     'Groceries',
   ],
   robots: 'index, follow',
-  authors: [{ name: 'BlinkBasket' }],
-  creator: 'BlinkBasket',
+  authors: [{ name: 'FreshBasket' }],
+  creator: 'FreshBasket',
   openGraph: {
-    title: 'BlinkBasket - Smart Grocery Shopping',
+    title: 'FreshBasket - Smart Grocery Shopping',
     description:
       'Order groceries online with lightning-fast delivery and a seamless shopping experience.',
-    url: 'https://blink-basket.vercel.app', // 🔥 replace later
-    siteName: 'BlinkBasket',
+    url: '', // 🔥 replace later
+    siteName: 'FreshBasket',
     images: [
       {
         url: '/Blinkbasketlogo.JPEG',
         width: 512,
         height: 512,
-        alt: 'BlinkBasket Logo',
+        alt: 'FreshBasket Logo',
       },
     ],
     locale: 'en_US',

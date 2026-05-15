@@ -362,37 +362,7 @@ export default function GroceryLandingPage() {
           </div>
         </motion.div>
 
-        {/* ── LAYER 4: FOOTER ── */}
-        <motion.footer
-          style={{ opacity: footerOpacity, pointerEvents: footerPointer }}
-          className="absolute bottom-0 w-full z-30 px-site"
-        >
-          <div style={{
-            borderTop: "1px solid rgba(187,247,208,0.8)",
-            background: "rgba(240,253,244,0.7)",
-            backdropFilter: "blur(20px)",
-            padding: "20px 0",
-          }}>
-            <div className="max-w flex flex-col md:flex-row justify-between items-center gap-4" style={{ gap: 16 }}>
-              <div style={{
-                fontFamily: "'Cormorant Garamond', serif",
-                fontSize: 18,
-                fontWeight: 600,
-                color: "#14532d",
-              }}>
-                Fresh<span style={{ color: "#16a34a", fontStyle: "italic" }}>Basket</span>
-              </div>
-              <p className="body-sm" style={{ color: "rgba(22,101,52,0.4)" }}>
-                © {new Date().getFullYear()} FreshBasket. All Rights Reserved.
-              </p>
-              <div style={{ display: "flex", gap: 24 }}>
-                {["Privacy", "Terms", "Support"].map((item) => (
-                  <a key={item} href="#" className="nav-link" style={{ fontSize: 12 }}>{item}</a>
-                ))}
-              </div>
-            </div>
-          </div>
-        </motion.footer>
+       
       </div>
     </div>
   );
