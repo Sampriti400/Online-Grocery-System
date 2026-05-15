@@ -282,6 +282,4 @@ This project is private and not open for public use or redistribution.
 
 ---
 
-<div align="center">
-  Built by <a href="https://github.com/Sourjya-Saha">Sourjya</a>
-</div>
+
